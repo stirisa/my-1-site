@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+}
+    .menu{
+    text-align: center;
+    background-color:#2d2d2d;  
+    padding: 15px 0px;  
+}
+
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 15px;
+    text-transform: capitalize;
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.header{
+    background-image: url(cat2.jpg);
+    padding: 375px 0px;
+    color: rgb(40, 190, 190);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.facts-content{
+    width: 40%;
+    margin: auto;
+    
+}
+
+
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.facts{
+    background-color: #262626;
+    color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+
+.images img{
+    width:30% ;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+
+.images{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.gallery{
+    background-color: #262626;
+}
+
+
+.item{
+    background-color: #2d2d2d;
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    text-align: center  ;
+    padding: 10px;
+    border-radius: 10px ;
+    display: inline-block;
+}
+
+
+.shop{
+    background-color: #262626;
+}
+
+
+.item img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+.shop-itemes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
